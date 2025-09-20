@@ -7,6 +7,9 @@ function isPrime(n: number) {
 
   return true;
 }
+/*
+    - O(root(n)) -> Time Complexity
+*/
 
 console.log(isPrime(2));
 console.log(isPrime(12));

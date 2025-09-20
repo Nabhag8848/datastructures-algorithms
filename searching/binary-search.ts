@@ -29,3 +29,15 @@ export class BinarySearch {
 const binary = new BinarySearch();
 const arr = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
 console.log(binary.search(arr, 521));
+
+/*
+  Time Complexity: 
+
+  Best - O(1)
+  Worst, Average - O(logN)
+
+  Space Complexity:
+
+  Best - O(1)
+
+*/

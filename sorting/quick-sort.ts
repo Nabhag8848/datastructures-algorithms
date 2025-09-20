@@ -43,3 +43,17 @@ const arr = new Array(4, 6, 2, 5, 7, 9, 1, 3);
 const quick = new QuickSort();
 console.log(quick.sort(arr, 0, arr.length - 1));
 console.log(quick.sort([], 0, -1));
+
+/*
+  Time Complexity: 
+
+  Best -> O(N)
+  Average -> O(N logN)
+  Worst -> O(N^2)
+  
+
+  Space Complexity: 
+
+  Best, Average -> O(logN)
+  Worst -> O(N)
+*/
